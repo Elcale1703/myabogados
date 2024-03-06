@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moises Agudelo Ayala</title>
+    <script src="https://kit.fontawesome.com/91785e75ff.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="./images/logoempresamoises.png"> 
+</head>
+<body>
+    <!------------------------------------ Backgroudn image ----------------------------------->
+    <div>
+        <div class="background-image">
+            <div class="text-box">
+                <h1>M&ABOGADOS</h1>
+                <h2>Moisés Agudelo</h2>
+                <div class="line"></div>
+                <p class="usted">Usted tiene derecho</p>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------- Nav Bar ----------------------------------->
+    <div id="navbar">
+        <img src="./images/logoempresamoises.png" alt="Logo">
+        <div id="navbar-links">
+            <a href="#quienesomos">Quiénes somos</a>
+            <a href="#areaPractica">Áreas de Práctica</a>
+            <a href="#Abogados">Abogados</a>
+            <a href="#Contacto">Contacto</a>
+        </div>
+        <div class = "site-nav">
+            <span class="nav-btn" id = "nav-btn"><i class = "fas fa-bars"></i></span>
+        </div>
+    </div>
+
+    <div class = "sidenav" id = "sidenav">
+        <span class = "cancel-btn" id = "cancel-btn">
+            <i class = "fas fa-times"></i>
+        </span>
+        <ul class = "navbar">
+            <li><a id="closeA" href="#quienesomos">Quiénes somos</a></li>
+            <li><a id="closeB" href="#areaPractica">Áreas de Práctica</a></li>
+            <li><a id="closeC" href="#Abogados">Abogados</a></li>
+            <li><a id="closeD" href="#Contacto">Contacto</a></li>
+            <img src="./images/logomoisesabogadosblancoynegro.png">
+        </ul>
+    </div>
+
+    <div id = "modal"></div>
+
+    <!-------------------------------------- Inicio ------------------------------------->
+    <div class="container">
+        <div class="image-column">
+          <img src="./images/MoisesAgudelo1.jpeg" alt="Moises Agudelo">
+        </div>
+        <div class="content-column">
+          <h2>Moisés Agudelo Ayala</h2>
+          <hr>
+          <h1>Lider y socio fundador.</h1>
+          <p>Abogado de la Unidad Central del Valle Del Cauca. Adelantó postgrados en:
+            Derecho Administrativo de la Universidad libre de Colombia; Derecho
+            Notarial y Registral, Procesal Civil, laboral y relaciones insdustriales de la Universidad Externado de
+            Colombia. <br>
+            Se ha desempeñado como Abogado Jefe del departamento jurídico del
+            Municipio de Tuluá (V). Notario de la República durante 15 años, profesor universitario.<br>
+            Actualmente es director y comentarista Jurídico radial del programa <span class="ustedDerecho">Usted tiene derecho</span> en la 
+            Emisora La Cariñosa de RCN, comentarista Jurídico de TV del Magazin Cada Mañana Canal PSC, 
+            abogado externo de varias empresas del estado, fundador y abogado jefe de la firma M&ABOGADOS S.A.</p>
+            
+        </div>
+        <div class="image-column">
+            <img src="./images/YamilethOcampo.jpeg" alt="Moises Agudelo">
+          </div>
+          <div class="content-column">
+            <h2>Yamileth Ocampo Osorio</h2>
+            <hr>
+            <h1>Coordinadora y socia fundadora.</h1>
+            <p>Contadora pública egresada de la Unidad Central del Valle Del Cauca, con alta experiencia en áreas de derecho notarial
+                y registral, derecho público, civil y de familia. Amplia experiencia directiva y gerencial de empresas, adelanta pregrado 
+                en derecho en la Unidad Central del Valle Del Cauca.
+                Actualmente coordinadora de la firma M&ABOGADOS S.A. </p>
+          </div>
+      </div>
+
+      <!--------------------------------- Quienes somos --------------------------->
+      <div id="quienesomos">
+        <div class="background-image2">
+            <div class="text-box">
+                <div class="line"></div>
+                <h1>Quiénes somos</h1>
+                <h2>“La paz es el resultado de una justicia pronta y oportuna”</h2>
+                <div class="quienessomos">
+                    <div class="flex-wrap">
+                        <p><strong>Estamos centrados en ayudar</strong> personas a que puedan hacer válidos sus derechos 
+                            y lo hacemos a través de nuestra profesión y experiencia.<span id="mi-texto1">
+                            Somos un grupo de abogados liderados por Moises Agudelo Ayala...
+                            Que trabajamos con el propósito de brindar un apoyo jurídico eficaz. 
+                            Concebido sobre los valores de la honestidad, el respeto, la honradez y 
+                            la responsabilidad profesional, buscando por sobre todo la convivencia 
+                            pacífica del conglomerado humano, brindándole herramientas jurídicas que 
+                            satisfagan sus diferencias de una manera objetiva y ecuánime..</span></p>
+                            <div class="buttonQuien">
+                                <button id="ver-mas1" onclick="mostrarOcultarTexto('mi-texto1', 'ver-mas1')">Ver más</button>
+                            </div>
+                    </div>
+                    <div class="flex-wrap1">
+                        <p><strong>Profesionales en derecho,</strong> con la misión de atender las necesidades jurídicas de nuestros clientes, 
+                            dispuestos a brindar soluciones
+                            integrales que beneficien a todo el país.<span id="mi-texto2">
+                            <strong>Asesoramos</strong> en la elaboración de acciones constitucionales, derechos de peticion y 
+                            otros trámites, ante entidades públicas y privadas...
+                            <strong>Representamos</strong> los intereses de personas afectadas en su actividad 
+                            laboral, familiar y económica, lo hacemos a través de trámites legales que 
+                            permitan determinar responsabilidades civiles, contractuales y extracontractuales.
+                            Ejecutamos procesos de division material, venta del bien comun, prescripciónes ordinarias y extraordinarias
+                            y todos los procesos que se realizan ante la jurisdicción civil.</span></p>
+                            <div class="buttonQuien">
+                                <button id="ver-mas2" onclick="mostrarOcultarTexto('mi-texto2', 'ver-mas2')">Ver más</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------ Areas de practica --------------------------------->
+    <div id="areaPractica" class="areaPractica">
+        <div class="text-box">
+            <div class="line"></div>
+            <h1>Áreas de Práctica</h1>
+            <h2>“La Justicia es la reina de las virtudes republicanas y con ella se sostiene la igualdad y la libertad.”</h2>
+        </div>
+        <div class="container-contac">
+            <div class="top-row">
+                <div class="card">
+                    <div class="front">
+                        <h1>Derecho Administrativo</h1>
+                    </div>
+                    <div class="back">
+                        <p>Somos especialistas en regular y administrar
+                        las relaciones entre el Estado y los
+                        particulares, como dirimir los conflictos 
+                        que surjan por acción u omision de la 
+                        sociedad.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="front1">
+                        <h1>Notarial & Registral</h1>
+                    </div>
+                    <div class="back1">
+                        <p>Garantizamos que todos los procesos legales,
+                            documentos públicos, contratos y otros
+                            se registren y estan al servicio de la 
+                            comunidad.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="front2">
+                        <h1>Laboral</h1>
+                    </div>
+                    <div class="back2">
+                        <p>Especialistas en resolver conflictos entre la 
+                            sociedad civil. Y al mismo tiempo orientamos
+                            los problemas relacionados entre trabajadores
+                            y empleadores.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-row">
+                <div class="card">
+                    <div class="front3">
+                        <h1>Civil</h1>
+                    </div>
+                    <div class="back3">
+                        <p>Garantizamos el régimen de su patrimonio, 
+                            de las obligaciones y contratos, 
+                            y la responsabilidad civil con una asesoria profesional eficaz.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="front4">
+                        <h1>Familia</h1>
+                    </div>
+                    <div class="back4">
+                        <p>Especialistas en patria potestad, 
+                            el patrimonio familiar y 
+                            las sucesiones hereditarias. garantizando un asesoramiento
+                            profesional idóneo.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="front5">
+                        <h1>Ejecutivos</h1>
+                    </div>
+                    <div class="back5">
+                        <p>Brindamos asesoramiento profesional para procesos ejecutivos,
+                            con fines de recuperacion de cartera.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------ Abogados --------------------------------->
+    <div id="Abogados" class="AbogadosCont">
+        <div class="flex">
+            <h1>Nuestro equipo</h1>
+            <div class="line"></div>
+                <p>Contamos con un grupo de abogados,
+                listos para atender sus necesidades,
+                especialistas en cada una de las áreas.
+                </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cardAbogados">
+            <div class="card-content">
+                <div class="line-block">
+                    <h3>BRAJHAN MENDOZA</h3>
+                </div>
+                <p>Abogado de la Universidad San Buenaventura de Cali, experiencia como dependiente judicial, 
+                    coordinador jurídico y en apoyo jurídico en la empresa Sentinel Procesal S.A.S.; abogado contratista 
+                    en la Oficina de Atención de Víctimas de la secretaria de Gobierno, Convivencia y Seguridad Ciudadana  
+                    del municipio de Tuluá (V) en el año 2022. Desde el año 2021 hasta la actualidad me 
+                    desempeño como abogado en la empresa M&ABOGADOS S.A.,  en las áreas de derecho administrativo; 
+                    laboral y seguridad social, como en las demás áreas del derecho privado, actualmente curso el 
+                    posgrado en derecho administrativo en la Universidad Libre de Colombia Seccional Cali. 
+                    Con habilidades en redacción de demandas, recursos, y excelente capacidad de trabajar bajo presión.</p>
+            </div>
+        </div>
+        <div class="cardAbogados4">
+            <div class="card-content">
+                <div class="line-block">
+                    <h3>VIVIAN MARCELA</h3>
+                </div>
+                <p>Abogada de la Unidad Central del Valle, con seis años de experiencia en el área de Derecho civil, 
+                    Familia y Notariado, me caracterizo por ser una persona responsable, comprometida con la operación, 
+                    las estrategias jurídicas  y líder en el desarrollo de las actividades, con capacidad para trabajar 
+                    en grupo y bajo presión, con dominio en el idioma inglés, como abogada mi objetivo profesional es 
+                    dar un servicio de calidad a nuestros clientes, asumiendo cada caso con responsabilidad para defender 
+                    con ética profesional a quienes confían en nuestra  competencia.</p>
+            </div>
+        </div>
+        <div class="cardAbogados2">
+            <div class="card-content">
+                <div class="line-block">
+                    <h3>JOAN ARGEMIRO</h3>
+                </div>
+                <p>Abogado de la Unidad Central del Valle, con dominio del idioma inglés. Apoyo jurídico en proceso civiles, 
+                    laborales, seguridad social y administrativos, con facilidad de socialización y atención al público. 
+                    Con experiencia en dependencia judicial, proyección de escritos judiciales, acciones constitucionales 
+                    y providencias judiciales. Participante en el semillero de Derecho Procesal (ICDP 2022), siendo coautor 
+                    en el escrito académico “EL PROCESO Y LA GARANTÍA DE LOS DERECHOS HUMANOS CON ENFOQUE DE GÉNERO EN MUJERES Y COMUNIDAD LGBTIQ+”.
+                    </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cardAbogados3">
+            <div class="card-content">
+                <div class="line-block">
+                    <h3>ENILDA BONILLA</h3>
+                </div>
+                <p>Abogada egresada de la Unidad Central del Valle del Cauca “UCEVA”, con especialización 
+                    en Derecho Constitucional de la misma Universidad. Alta experiencia laboral en Derecho Civil y de Familia, 
+                    obtenida a través del desempeño como empleada de la Rama Judicial en diferentes Juzgados y como litigante. 
+                    Pensionada de la Rama Judicial. Actualmente  soy apoyo en MYABOGADOS, en el área Civil y de Familia. 
+                    </p>
+            </div>
+        </div>
+        <div class="cardAbogados6">
+            <div class="card-content">
+                <div class="line-block">
+                    <h3>URIEL DAVID</h3>
+                </div>
+                <p>Abogado en formación de la Unidad Central del Valle.
+                    Con Experiencia en revisión documental de Tramites vehiculares de Transito y 
+                    como dependiente judicial encargado de realizar notificaciones, proyección de memoriales y atención al público
+                    Caracterizado por el compromiso a nivel organizacional, responsabilidad, 
+                    capacidad para trabajar en grupo y en los diferentes escenarios que requiera la organización.</p>
+            </div>
+        </div>
+        <div class="cardAbogados5">
+            <div class="card-content">
+                <div class="line-block">
+                    <h3>IGOR IVAN</h3>
+                </div>
+                <p>Profesional en Derecho, estudiante de la especializado en Derecho Administrativo.
+                    experiencia en el sector privado. Me caracterizo por ser una persona responsable, 
+                    exigente, adaptación al cambio, buenas relaciones interpersonales, comprometido 
+                    a nivel organizacional, cuento con capacidad de trabajo en grupo y bajo presión. 
+                    Cuento con experiencia como asesor jurídico a través del bufete de Abogados MYABOGADOS, en el cual hago parte actualmente.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="cardAbogados1">
+            <div class="card-content">
+                <div class="line-block">
+                    <h3>ASTRID ELENA</h3>
+                </div>
+                <p>Estudiante actual de séptimo semestre de derecho en jornada nocturna de la unidad central del valle del cauca; 
+                    soy una persona proactiva con capacidad de adaptarse a diferentes espacios, de igual manera con habilidad de 
+                    trabajar de forma grupal o individual,   responsable con mi entorno y mis tareas a realizar, con siete meses 
+                    de experiencia laboral en el ámbito del derecho civil.</p>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------ Contactanos --------------------------------->
+    <div id="Contacto" class="contactoTitulo">
+        <div class="tituloContac">
+            <h1>Contáctanos</h1>
+            <div class="line"></div>
+            <p>Brindamos asesoramiento profesional,
+                no dudes en contactarnos.
+            </p>
+        </div>
+        <div class="contacto">
+            <img src="./images/ContactoMoisesAgudelo.jpeg" alt="Imagen" class="image">
+            <form id="whatsappForm">
+                <div class="text-boxes">
+                    <div class="text-box">
+                        <p>
+                            <label> 
+                                Nombre(*)
+                                <br> 
+                                <span>
+                                    <input type="text" id="text" name="Nombre">
+                                </span> 
+                            </label>
+                        </p>
+                    </div>
+                    <div class="text-box">
+                        <p>
+                            <label> 
+                                Motivo de Consulta
+                                <br> 
+                                <span>
+                                    <textarea cols="20" rows="12" id="textarea" name="Consulta"></textarea>
+                                </span> 
+                            </label>
+                        </p>
+                    </div>
+                    <div id="text-box">
+                        <span>
+                            <button type="submit" class="contact-button">ENVIAR</button>
+                        </span>
+                    </div>
+                </div>
+            </form>
+            <div class="maps">
+                <h2>Si prefieres un contaco mas presencial, acercate a la oficina</h2>
+                <br />
+                <iframe class="maps1" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15918.748969122234!2d-76.1964732!3d4.083954!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e39c548e8d0d571%3A0x197e71379fe7cca2!2sAbogados%20Moises%20Agudelo%20Ayala!5e0!3m2!1ses-419!2sco!4v1687879953260!5m2!1ses-419!2sco" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>    
+    </div>
+
+    <!--------------------------------Footer--------------------------------->
+    <footer>
+        <div class="footer-container">
+            <div class="column-footer">
+                <h1>Contacto <br /> Profesional</h1>
+                <div class="line-footer"></div>
+                <p>Cra 27. # 27 - 24 Oficina 402 B</p>
+                <p>Centro Comercial Café Plaza</p>
+                <p>Tuluá, Valle del Cauca</p>
+                <p>Oficina, Colombia</p>
+                <p><strong>(602) 225-0073 - +57 (310) 505-1279</strong></p>
+                <p><strong>+57 (316) 425-8105</strong></p>
+            </div>
+            <div class="column-footer2">
+                <h1>Redes Sociales</h1>
+                <a href="https://web.facebook.com/moises.agudeloayala/?locale=es_LA&_rdc=1&_rdr" target="_blank"><img src="./images/facebook.webp"></a>
+                <a href="https://www.instagram.com/moisesagudeloayala/?hl=es" target="_blank"><img src="./images/instagram.png"></a>
+                <a href="https://open.spotify.com/show/5vYFzC6OubQ9HBhOHmRt7k?si=pabbGePeSTOZ2FNJYVih6g&nd=1" target="_blank"><img src="./images/Spotify.png"></a>
+                <a href="#"><img src="./images/RcnRadio.png"></a>
+                <a href="#"><img src="./images/psc.jpg"></a>
+            </div>
+        </div>
+        <div class="column-footer1">
+            <h1>Redes Sociales</h1>
+            <a href="https://web.facebook.com/moises.agudeloayala/?locale=es_LA&_rdc=1&_rdr" target="_blank"><img src="./images/facebook.webp"></a>
+            <a href="https://www.instagram.com/moisesagudeloayala/?hl=es" target="_blank"><img src="./images/instagram.png"></a>
+            <a href="https://open.spotify.com/show/5vYFzC6OubQ9HBhOHmRt7k?si=pabbGePeSTOZ2FNJYVih6g&nd=1" target="_blank"><img src="./images/Spotify.png"></a>
+            <a href="#"><img src="./images/RcnRadio.png"></a>
+            <a href="#"><img src="./images/psc.jpg"></a>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p>Copyright © mymdesigners2023. All Rights Reserved</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
